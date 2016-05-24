@@ -1,0 +1,151 @@
+html {
+  font-size: 10px;
+}
+body{
+  margin: 0;
+}
+.mainContainer{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: grey;
+}
+.feedbackContainer {
+  position: absolute;
+  height: 100%;
+  width: 35rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: lightblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.firstBlock {
+  position: relative;
+  height: 15rem;
+  width: 100%;
+  background-color: #43515E;
+}
+.secondBlock {
+  position: relative;
+  height: 13rem;
+  width: 100%;
+  background-color: #546376;
+}
+.thirdBlock {
+  position: relative;
+  height: 13rem;
+  width: 100%;
+  background-color: white;
+
+}
+.fourthBlock {
+  position: relative;;
+  height: 25.5rem;
+  width: 100%;
+  background-color: white;
+  border-top: thin dotted lightgrey;
+
+}
+.img {
+  position: absolute;
+  height: 6rem;
+  left: 50%;
+}
+.logo {
+  border-radius: 50%;
+  position: absolute;
+  ;
+  width: 5rem;
+  height: 5rem;
+  -webkit-transform: translateX(-50%);
+  top: 3rem;
+  border: .2rem solid white;
+}
+.smile1 {
+  position: absolute;
+
+  height: 4.5rem;
+  left: 12rem;
+  bottom: 2.5rem;
+  width: 4.5rem;
+}
+.s1img {
+  position: absolute;
+  height: 4.5rem;
+}
+.smile2 {
+  position: absolute;
+  height: 4.5rem;
+  right: 12rem;
+  width: 4.5rem;
+  bottom: 2.5rem;
+}
+.s2img {
+  border-radius: 50%;
+  position: absolute;
+  width: 4.5rem;
+  height: 4.5rem;
+}
+.logoName {
+  position: relative;
+  color: white;
+  font-size: 2rem;
+  bottom: 2rem;
+  width: 100%;
+  top: 9rem;
+  text-align: center;
+}
+.expirence {
+  position: absolute;
+  color: white;
+  font-size: 1.2rem;
+  width: 100%;
+  text-align: center;
+  top: 2.5rem;
+}
+.numValue {
+  position: absolute;
+  color: black;
+  font-size: 6rem;
+  left: 5rem;
+  padding-top: 3rem;
+  font-weight: bold;
+}
+.name {
+  position: relative;
+  color: black;
+  font-size: 1.4rem;
+  width: 100%;
+  height: 3rem;
+}
+.priceData {
+  right: 2rem;
+  position: absolute;
+  color: black;
+  font-size: 1.4rem;
+  width: 18%;
+  margin-top: 1.5rem;
+}
+.discData{
+  font-size: 1.4rem;
+  color: grey;
+  width:60%;
+  margin-top: 1.5rem;
+  margin-left: 2rem;
+
+
+}
+.nameData {
+
+  position: absolute;
+  color: black;
+  font-size: 1.4rem;
+  width: 70%;
+  margin-top: 1.5rem;
+  left: 2rem;
+
+
+}
+.numValue span{
+  font-size: 3rem;
+}
